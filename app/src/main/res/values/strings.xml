@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">COVID-19 TRACKER APP</string>
+    <string name="backbutton">backButton</string>
+    <string name="image_hamburgermenu">image_HamburgerMenu</string>
+    <string name="tv_content">If you feel sick with any of Covid-19 sysmptoms please call or SMS us immediately for help.</string>
+    <string name="imageviewcall">imageViewCall</string>
+    <string name="imageview_sysmptopms">imageview_sysmptopms</string>
+    <string name="preventionimage">preventionImage</string>
+    <string name="globalcases">globalcases</string>
+    <string name="seedetails">seeDetails</string>
+    <string name="countryflags">countryFlags</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_heading">First Heading</string>
+    <string name="second_heading">Second Heading</string>
+    <string name="tv_desc">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</string>
+    <string name="slideimage">slideImage</string>
+</resources>

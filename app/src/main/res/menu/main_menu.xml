@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            android:iconTint="@android:color/black"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About"
+            android:icon="@drawable/ic_about"
+            android:iconTint="@android:color/black"/>
+
+        <item
+            android:id="@+id/nav_helpline"
+            android:title="Helpline"
+            android:icon="@drawable/ic_phone"
+            android:iconTint="@android:color/black"/>
+
+        <item
+            android:id="@+id/nav_donate"
+            android:title="Donate PM Fund"
+            android:icon="@drawable/ic_money"
+            android:iconTint="@android:color/black"/>
+
+    </group>
+
+        <item android:title="Profile">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Login"
+                    android:icon="@drawable/ic_login"
+                    android:iconTint="@android:color/black"/>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_profile"
+                    android:iconTint="@android:color/black"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ic_logout"
+                    android:iconTint="@android:color/black"/>
+                </group>
+            </menu>
+        </item>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_shareapp"
+                android:title="Share App"
+                android:icon="@drawable/ic_share"
+                android:iconTint="@android:color/black"/>
+
+            <item
+                android:id="@+id/nav_rateus"
+                android:title="Rate Us"
+                android:icon="@drawable/ic_rateus"
+                android:iconTint="@android:color/black"/>
+        </menu>
+    </item>
+</menu>
