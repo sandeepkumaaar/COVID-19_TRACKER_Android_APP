@@ -34,7 +34,6 @@ import java.util.List;
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private static final int REQUEST_CALL = 1;
-
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar homeToolbar;
@@ -176,7 +175,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 myDialogFragment.show(getSupportFragmentManager(),"My Dialog");
             break;
             case R.id.nav_helpline:
-                Toast.makeText(HomeActivity.this, "Helpline", Toast.LENGTH_SHORT).show();
+                callAtRuntime();
+                //Toast.makeText(HomeActivity.this, "Helpline", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_donate:
                 Toast.makeText(HomeActivity.this, "Donate", Toast.LENGTH_SHORT).show();

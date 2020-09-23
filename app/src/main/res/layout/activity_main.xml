@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/noto_sans_bold"
-            android:text="Covid-19 Global Stats"
+            android:text="@string/covid_19_global_stats"
             android:textSize="18sp"
             android:textColor="@android:color/white"
             android:paddingStart="20dp"/>
